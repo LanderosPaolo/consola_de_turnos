@@ -1,4 +1,4 @@
-# Función para los números de perfumeria
+# Función para los números de perfumería
 def perfumes():
     for i in range(1, 100):
         numeros = f'{i:02}'
@@ -10,7 +10,7 @@ def farmacia():
         numeros = f'{i:02}'
         yield numeros
 
-# Función para los números de cosmeticos
+# Función para los números de cosméticos
 def costmeticos():
     for i in range(1, 100):
         numeros = f'{i:02}'
